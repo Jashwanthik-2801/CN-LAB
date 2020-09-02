@@ -23,11 +23,11 @@ int main()
                 strcat(final_string, t);
             }
             else if(t[0] == ed){
-			    strcat(final_string, d);
+                strcat(final_string, d);
                 strcat(final_string, t);
             }
             else{
-			    strcat(final_string, t);
+                strcat(final_string, t);
                 strcat(final_string, " ");
             }
         }
