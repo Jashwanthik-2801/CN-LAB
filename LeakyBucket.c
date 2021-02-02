@@ -10,7 +10,7 @@ void bktInput(int a,int b)
 
  while(a>b){
  a-=b;
- 
+ printf("\n%d bytes outputed.",b);
  }
  if (a>0) printf("\n\t\tLast %d" ,a);
  printf("\tbytes sent\t");
